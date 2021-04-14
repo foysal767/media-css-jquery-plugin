@@ -1,0 +1,484 @@
+header{
+    background-image: url(../images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar-toggler i{
+    color:#fff;
+    z-index: 999;
+}
+.navbar-toggler{
+    z-index: 999;
+}
+canvas{
+    position: absolute;
+    top: 0%;
+}
+.header-content{
+    z-index: 999;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    position: relative;
+    padding: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    z-index: 999;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #008ed6;
+}
+.navbar-light .navbar-nav .nav-item{
+    padding: 0 1rem;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::before{
+content: '';
+position: absolute;
+left: 0%;
+bottom: 0%;
+width: 0%;
+height: 2px;
+background: #008ed6;
+transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 0%;
+    height: 2px;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+    }
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 45%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 45%;
+}
+header h5{
+color: #008ed6;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 1px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+header h1{
+color: #fff;
+font-size: 48px;
+margin: 20px auto;
+font-family: 'Source Sans Pro', sans-serif;
+}
+header p{
+color: #999999;
+font-size: 16px;
+margin: 10px 0px 60px 0px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.btn-download{
+background-color: transparent;
+color: #fff;
+border: 1px solid #999999;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+padding: 0;
+padding: 10px 15px;
+transition: .4s all ease-in-out;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.btn-download:hover{
+    background: #008ed6;
+    color: #fff;
+}
+.btn-features{
+color: #fff;
+border: 1px solid #999999;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 600;
+padding: 0;
+padding: 10px 15px;
+margin-left: 20px;
+transition: .4s all ease-in-out;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.btn-features:hover{
+    background-color: #008ed6;
+    color: #fff;
+}
+.hg{
+    height: 91vh;
+    align-items: center;
+}
+.phone{
+position: absolute;
+bottom: 0;
+right: 13%;
+}
+.features h5, .beautiful h5, .customize h5, .testimonial h5, .pricing h5, .contact-us h5{
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.features h1, .beautiful h1, .customize h1, .pricing h1, .contact-us h1{
+font-size: 36px;
+color: #1a1a1a;
+text-transform: capitalize;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.features span, .beautiful span, .customize span, .testimonial .span-1, .pricing span, .contact-us span{
+display: inline-block;
+height: 3px;
+width: 70px;
+position: relative;
+}
+.features span::before, .beautiful span::before, .customize span::before, .testimonial .span-1::before, .pricing span::before, .contact-us span::before{
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 0%;
+    height: 100%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.features span::after, .beautiful span::after, .customize span::after, .testimonial .span-1::after, .pricing span::after, .contact-us span::after{
+    content: '';
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 0%;
+    height: 100%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.features:hover span::after{
+width: 47%;
+}
+.features:hover span::before{
+width: 47%;
+}
+.devided{
+    width: 100%;
+    height: 1px;
+    background-color: #999999;
+}
+.beautiful:hover span::after{
+    width: 47%;
+}
+.beautiful:hover span::before{
+    width: 47%;
+}
+.customize:hover span::before{
+    width: 47%;
+}
+.customize:hover span::after{
+    width: 47%;
+}
+.testimonial:hover .span-1::before{
+    width: 47%;
+}
+.testimonial:hover .span-1::after{
+    width: 47%;
+}
+.pricing:hover span::after{
+    width: 47%;
+}
+.pricing:hover span::before{
+    width: 47%;
+}
+.contact-us:hover span::before{
+    width: 47%;
+}
+.contact-us:hover span::after{
+    width: 47%;
+}
+.feature p, .beautiful p, .customize p, .table p{
+color: #999999;
+transition: .4s all ease-in-out;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.features-icon{
+height: 70px;
+width: 70px;
+border: 1px solid #e1dada;
+border-radius: 50px;
+line-height: 70px;
+font-size: 20px;
+transition: .4s all ease-in-out;
+margin: auto;
+}
+.features-icon i{
+    color: #008ed6;
+    font-size: 24px;
+    transition: .4s all ease-in-out;
+}
+.features-icon:hover{
+    background-color: #008ed6;
+    border-color: #008ed6;
+}
+.features-icon:hover i{
+    color: #fff;
+}
+.beautiful .hg{
+ height: 91vh;
+ align-items: center;
+}
+
+.beautiful .details p{
+    color: #1b1b1b;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.beautiful .details p i{
+color: #008ed6;
+height: 20px;
+width: 20px;
+margin-right: 10px;
+}
+.details .icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    line-height: 30px;
+}
+.customize{
+background-color: #F2F2F2;
+}
+.customize .hg{
+    height: 70vh;
+    align-items: center;
+}
+.testimonial{
+background-image: url(../images/carousel-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.testimonial h1{
+    color: #fff;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.testimonial p{
+color: #fff;
+font-style: italic;
+font-size: 18px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.theme{
+    background-color: black;
+}
+.theme .hg{
+    height: 10vh;
+    align-items: center;
+}
+.theme p{
+color: #999999;
+text-transform: capitalize;
+font-size: 34px;
+font-family: 'Source Sans Pro', sans-serif;
+transition: .2s all ease-in-out;
+}
+.theme p:hover{
+    color: #fff;
+    font-weight: 700;
+}
+.theme .button{
+    margin-left: 42%;
+}
+.client{
+width: 35%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.client-img{
+width: 50px;
+border-radius: 50px;
+overflow: hidden;
+height: 50px;
+}
+.client-des h2{
+color: #fff;
+text-transform: capitalize;
+font-size: 18px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.client-des h6{
+color: #fff;
+font-size: 12px;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 600;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-dots span{
+width: 10px;
+height: 10px;
+background-color: transparent;
+border: 1px solid #999999;
+display: inline-block;
+border-radius: 50%;
+margin-top: 40px;
+margin-right: 10px;
+}
+.owl-dots .active span{
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+}
+.table .tr1 h3{
+color: black;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: 700;
+transition: .4s all ease-in-out;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.table:hover .tr1 h3{
+    color: #008ed6;
+}
+.btn-order-now{
+    color: #008ed6;
+    border: 1px solid #999999;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 25px;
+    margin-bottom: 15px;
+    transition: .4s all ease-in-out;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.btn-order-now:hover{
+    background-color: #008ed6;
+    color: #fff;
+    border: 1px solid #008ed6;
+}
+.table .tr2 h1{
+color: black;
+font-size: 40px;
+font-weight: 700;
+transition: .4s all ease-in-out;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.table:hover .tr2 h1{
+    color: #fff;
+}
+.table:hover .tr2 p{
+    color: #fff;
+}
+.table .tr2{
+    background-color: transparent;
+    transition: .4s all ease-in-out;
+}
+.table:hover .tr2{
+    background-color: #008ed6;
+}
+.table .tr3 p{
+color: #999999;
+transition: .4s all ease-in-out;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-us{
+    background-color: #ededed;
+    position: relative;
+    padding-bottom: 200px;
+    padding-top: 40px;
+}
+.contact-us p{
+    color: #999999;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contact-icon i{
+    color: #008ed6;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact-form{
+    background: black;
+    padding: 30px;
+    position: absolute;
+    margin-top: -40px;
+}
+.form-control{
+background: transparent;
+border: none;
+border: 1px solid #999999;
+text-transform: uppercase;
+font-weight: 400;
+border-radius: 3px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.form-control:focus{
+    background: transparent;
+    color: #999999;
+    outline: none;
+    box-shadow: none;
+    border-color: #999999;
+}
+form input[type="submit"]{
+    background: transparent;
+    padding: 0%;
+    margin: 0%;
+    background: #008ed6;
+    padding: 15px 30px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 42%;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+form input[type="submit"]:hover{
+    background: #016ba0;
+}
+form input[type="submit"]:focus{
+    background-color: transparent;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+footer li{
+font-size: 26px;
+transition: .4s all ease-in-out;
+}
+footer li:hover{
+    color: #008ed6;
+}
+footer li:focus{
+    color: #008ed6;
+}
+footer p{
+font-size: 18px;
+padding: 0;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+font-weight: 600;
+}

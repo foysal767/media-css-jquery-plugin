@@ -1,0 +1,498 @@
+@media (max-width:2560px){
+    .phone .img-fluid{
+        max-width: 100%;
+    }
+    .phone{
+        right: 9%;
+    }
+    header p, .feature p, .beautiful p, .beautiful .details p, .testimonial p, .customize p, .pricing p, .contact-us p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1400px){
+    .phone .img-fluid{
+        max-width: 85%;
+    }
+    .phone{
+        right: 9%;
+    }
+    .feature p{
+        font-size: 20px;
+    }
+    .testimonial canvas{
+        width: 100%;
+        height: 440px;
+    }
+}
+@media (max-width:1399px){
+    .phone .img-fluid{
+        max-width: 85%;
+    }
+    .phone{
+        right: 9%;
+    }
+}
+@media (max-width: 1200px){
+    .testimonial canvas{
+        width: 100%;
+        height: 474px;
+    }
+    .customize{
+        margin-top: 77px;
+    }
+    .theme p{
+        font-size: 31px;
+    }
+    .theme .button{
+        margin-left: 0%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .client{
+        width: 40%;
+    }
+    .contact-form {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70%;
+    }
+    form input[type="submit"]{
+        margin-left: 56%;
+    }
+}
+@media (max-width: 1199px){
+    .phone .img-fluid{
+        max-width: 85%;
+    }
+    .phone{
+        right: 4%;
+    }
+    .client{
+        width: 48%;
+    }
+    .testimonial canvas{
+        height: 460px;
+        width: 100%;
+    }
+    .theme{
+        align-items: center;
+    }
+    .theme p{
+        font-size: 25px;
+    }
+    .theme .button {
+        margin-left: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contact-form {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    form input[type="submit"]{
+        margin-left: 55%;
+    }
+}
+@media (max-width: 992px){
+    .phone .img-fluid{
+        max-width: 80%;
+    }
+    .phone{
+        right: 0%;
+    }
+    .client{
+        width: 48%;
+    }
+    .testimonial canvas{
+        height: 460px;
+        width: 100%;
+    }
+    .theme{
+        align-items: center;
+    }
+    .theme p{
+        font-size: 25px;
+    }
+    .theme .button {
+        margin-left: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contact-form {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    form input[type="submit"]{
+        margin-left: 53%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .nav-link{
+        display: inline-block;
+    }
+    .phone .img-fluid{
+        max-width: 80%;
+    }
+    .phone{
+        right: 10%;
+    }
+    .client{
+        width: 64%;
+    }
+    .testimonial canvas{
+        height: 479px;
+        width: 100%;
+    }
+    .testimonial p{
+        font-size: 17px;
+    }
+    .theme p{
+        font-size: 24px;
+    }
+    .theme .button{
+        margin-left: 0%;
+    }
+    .contact-form{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 40px;
+    }
+    form input[type="submit"]{
+        margin-left: 63.5%;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px){
+    .phone{
+        right: 0%;
+    }
+    .contact-form{
+        padding: 30px;
+    }
+    form input[type="submit"]{
+        margin-left: 52.5%;
+    }
+    .features .feature{
+        margin: 0;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .nav-link{
+        display: inline-block;
+    }
+    .phone{
+        display: none;
+    }
+    .header-content{
+        text-align: center;
+    }
+    .customize {
+        margin-top: 490px;
+        padding-bottom: 190px;
+        text-align: center;
+    }
+    .beautiful .part-2{
+        text-align: center;
+    }
+    .beautiful .details{
+       text-align: left;
+    }
+    .client{
+        width: 85%;
+    }
+    .testimonial p{
+        font-size: 17px;
+    }
+    .testimonial canvas{
+        height: 524px;
+    }
+    .theme{
+        text-align: center;
+        margin-bottom: 20px;
+        height: 48vh;
+    }
+    .theme .button{
+        margin-left: 0%;
+        margin: auto;
+    }
+    .contact-form{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 40px;
+    }
+    form input[type="submit"]{
+        margin-left: 76.5%;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .nav-link{
+        display: inline-block;
+    }
+   .phone{
+       display: none;
+   }
+   .navbar-light .navbar-nav .nav-link{
+       z-index: 999;
+   }
+   .header-content{
+       text-align: center;
+   }
+   .feature{
+       margin: 10px 0;
+   }
+   .beautiful h5{
+       padding-top: 30px;
+   }
+   .beautiful .part-2{
+       text-align: center;
+       height: 533px
+   }
+   .beautiful .details{
+       text-align: left;
+       margin-left: 18px;
+   }
+   .customize{
+    margin-top: 480px;
+    padding-bottom: 260px;
+    text-align: center;
+   }
+   .customize p{
+       font-size: 20px;
+   }
+    .client{
+        width: 45%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .client-des{
+        text-align: left;
+    }
+    .testimonial p{
+        font-size: 20px;
+    }
+    .testimonial .header{
+        padding-top: 20px;
+    }
+    .testimonial canvas{
+        height: 533px;
+        width: 100%;
+    }
+    .theme{
+        height: 45vh;
+        text-align: center;
+    }
+    .theme p{
+        font-size: 20px;
+    }
+    .theme .button{
+        margin-left: auto;
+    }
+    .contact-us .location{
+        margin: 10px 0;
+    }
+    .contact-div{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .contact-form{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 40px;
+    }
+    form input[type="submit"]{
+        margin-left: auto;
+        padding: 10px 20px;
+       font-size: 12px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    .footer-icon{
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 425px){
+    .nav-link{
+        display: inline-block;
+    }
+    .customize{
+        margin-top: 380px;
+    }
+    .client{
+        width: 55%;
+    }
+    .customize p{
+        font-size: 18px;
+    }
+    .testimonial canvas{
+        height: 563px;
+    }
+    .contact-form{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 40px;
+    }
+}
+
+@media (max-width: 375px){
+    .testimonial canvas{
+        height: 577px;
+        width: 100%;
+    }
+    .client{
+        width: 65%;
+    }
+    .nav-link{
+        display: inline-block;
+    }
+    .contact-form{
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+   .phone{
+       display: none;
+   }
+   .nav-link{
+       display: inline-block;
+   }
+   header p{
+       margin: 40px 0px 40px 0px;
+   }
+   header h5{
+       margin: auto;
+       padding-top: 15px;
+   }
+   header h1{
+       font-size: 40px;
+   }
+   .header-content{
+       text-align: center;
+   }
+   .features .feature{
+       margin: 10px auto;
+   }
+   .features h1{
+       font-size: 32px;
+       margin: 15px auto;
+   }
+   .features h5{
+       text-align: center;
+   }
+   .features{
+       margin-top: 5px;
+   }
+   .beautiful .part-2{
+       padding-top: 20px;
+       text-align: center;
+   }
+   .beautiful .details{
+       text-align: left;
+       margin-left: 15px;
+   }
+   .beautiful .details p{
+       font-size: 14px;
+   }
+   .customize{
+       margin: 315px 0 0px 0;
+       text-align: center;
+   }
+   .customize h1{
+       padding: 20px 0 10px 0;
+   }
+   .customize p{
+       font-size: 17px;
+   }
+   .customize h1{
+       font-size: 36px;
+   }
+   .testimonial{
+       text-align: center;
+       height: 80vh;
+   }
+   .testimonial p{
+       font-size: 16px;
+   }
+   .client{
+       width: 80%;
+       margin: auto;
+   }
+   .client-des{
+       text-align: left;
+   }
+   .owl-nav{
+       display: none;
+   }
+   .testimonial canvas{
+       height: 470px;
+   }
+   .testimonial .header{
+       padding-left: 0%;
+   }
+   .theme .button{
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       height: 42px;
+       margin-left: 0%;
+   }
+   .theme-button{
+       padding-left: 0%;
+       padding-top: 12px;
+   }
+   .theme{
+       height: 40vh;
+       text-align: center;
+       padding-left: 0;
+   }
+   .theme p{
+       font-size: 18px;
+   }
+   form input[type="submit"]{
+       margin-left: auto;
+       padding: 10px 16px;
+       font-size: 10px;
+   }
+   .contact-form{
+       padding: 30px;
+   }
+   .contact-div{
+       padding-left: 0%;
+       padding-right: 0%;
+   }
+   .contact-us .location{
+       margin: 10px 0;
+   }
+   footer p{
+       font-size: 12px;
+   }
+   .footer-icon{
+       padding: 0 30px;
+   }
+}
